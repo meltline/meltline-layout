@@ -1,0 +1,25 @@
+{
+  "name": "meltline-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "yarn",
+    "start": "dotou-viewer",
+    "dev": "dotou-viewer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meltline/meltline-layout.git"
+  },
+  "author": "phi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meltline/meltline-layout/issues"
+  },
+  "homepage": "https://github.com/meltline/meltline-layout#readme",
+  "dependencies": {
+    "dotou-viewer": "git://github.com/phi-jp/dotou-viewer.git#a7a095c9726974589eae2dd457b6b35cdd42f785"
+  }
+}
