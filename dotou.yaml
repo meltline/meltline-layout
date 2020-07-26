@@ -6,3 +6,9 @@ sections:
     label: Layout
     items:
       - { id: 'card-layout', label: 'Card layout', description: '' }
+      - { id: 'holy-grail', label: 'Holy grail', description: '' }
+  -
+    id: 'navigation'
+    label: Navigation
+    items:
+      - { id: 'breadcrumb', label: 'breadcrumb', description: '' }

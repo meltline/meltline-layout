@@ -22,4 +22,19 @@ html(lang='ja')
       }
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js')
   body
-    h1 Hello, Trace100!
+    div.f.flex-column.h-full.font-blokk
+      //- header
+      header.border-bottom.p16
+        h1.fs18 Holy grail | meltline layout 
+
+      //- main
+      main.f.flex-auto
+        aside.col2.border-right.p16 side contents
+        article.col8.border-right.p16
+          div.mb16 main contents
+          p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+        nav.col2.p16 nav contents
+      
+      //- footer
+      footer.border-top.p16
+        div ©2020 phi
