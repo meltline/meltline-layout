@@ -1,0 +1,49 @@
+doctype html
+
+html(lang='ja')
+  head
+    meta(charset='utf-8')
+    title タイトル
+    meta(name='description' content='詳細')
+
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/gh/phi-jp/meltline@v0.1.10/meltline.css')
+    style.
+      @import url("https://gitcdn.xyz/repo/octoshrimpy/blokkfont/master/blokkfont.css");
+      
+      html, body {
+        height: 100%;
+      }
+      .font-blokk {
+        font-family: "BLOKK";
+      }
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js')
+  body
+    div.h-full.p16.f.fh.font-blokk.text-gray.lh15
+      div.f.w-full.h500
+        div.w-full.border.rounded-4.f.flex-column.m8
+          //- cover image
+          div.w-full.h128.bg-gray.flex-fixed
+          //- contents
+          div.p16.flex-auto
+            p Hello, world!
+          //- footer
+          div.p16.f.fc
+            button.w100.h32.bg-gray
+        div.w-full.border.rounded-4.f.flex-column.m8
+          //- cover image
+          div.w-full.h128.bg-gray.flex-fixed
+          //- contents
+          div.p16.flex-auto
+            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+          //- footer
+          div.p16.f.fc
+            button.w100.h32.bg-gray
+        div.w-full.border.rounded-4.f.flex-column.m8
+          //- cover image
+          div.w-full.h128.bg-gray.flex-fixed
+          //- contents
+          div.p16.flex-auto
+            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Hello, world!
+          //- footer
+          div.p16.f.fc
+            button.w100.h32.bg-gray

@@ -7,6 +7,15 @@ sections:
     items:
       - { id: 'card-layout', label: 'Card layout', description: '' }
       - { id: 'holy-grail', label: 'Holy grail', description: '' }
+      - { id: 'same-height-columns', label: 'Some height columns', description: 'flexbox で折返しを無効かつ width: 100% にすることで等幅で並べることができる' }
+      - { id: 'sidebar', label: 'Sidebar', description: '' }
+      - { id: 'simple-grid', label: 'Simple grid', description: '' }
+      - { id: 'split-screen', label: 'Split screen', description: '' }
+      - { id: 'sticky-footer', label: 'Sticky footer', description: '' }
+      - { id: 'sticky-header', label: 'Sticky header', description: '' }
+      - { id: 'sticky-sections', label: 'Sticky sections', description: '' }
+
+      
   -
     id: 'navigation'
     label: Navigation
