@@ -11,8 +11,8 @@ sections:
       - { id: 'sidebar', label: 'Sidebar', description: '' }
       - { id: 'simple-grid', label: 'Simple grid', description: '' }
       - { id: 'split-screen', label: 'Split screen', description: '' }
-      - { id: 'sticky-footer', label: 'Sticky footer', description: '' }
-      - { id: 'sticky-header', label: 'Sticky header', description: '' }
+      # - { id: 'sticky-footer', label: 'Sticky footer', description: '' }
+      # - { id: 'sticky-header', label: 'Sticky header', description: '' }
       - { id: 'sticky-sections', label: 'Sticky sections', description: '' }
 
       
